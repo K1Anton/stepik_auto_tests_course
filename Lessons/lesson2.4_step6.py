@@ -9,7 +9,7 @@ import math
 try:
     link = "http://suninjuly.github.io/explicit_wait2.html"
 
-    browser = webdriver.Chrome("")
+    browser = webdriver.Chrome("Ваш путь к драйверу")
     browser.get(link)
 
     Price = WebDriverWait(browser, 12).until(
